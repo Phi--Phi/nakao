@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nakao", "nakao\nakao.vcxproj", "{ECA05A0D-334B-4A4C-8DA3-929F5BBCA777}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA05A0D-334B-4A4C-8DA3-929F5BBCA777}.Debug|x64.ActiveCfg = Debug|x64
+		{ECA05A0D-334B-4A4C-8DA3-929F5BBCA777}.Debug|x64.Build.0 = Debug|x64
+		{ECA05A0D-334B-4A4C-8DA3-929F5BBCA777}.Release|x64.ActiveCfg = Release|x64
+		{ECA05A0D-334B-4A4C-8DA3-929F5BBCA777}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A1F1E3E-C42B-4519-B025-15C5B7D57CA6}
+	EndGlobalSection
+EndGlobal
