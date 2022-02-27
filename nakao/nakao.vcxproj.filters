@@ -15,6 +15,9 @@
     <ClInclude Include="src\Public\imgui_impl_opengl3.h">
       <Filter>Public</Filter>
     </ClInclude>
+    <ClInclude Include="src\Public\imgui_impl_opengl3_loader.h">
+      <Filter>Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Private\Main.cpp">

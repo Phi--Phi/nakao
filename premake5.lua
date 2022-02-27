@@ -14,6 +14,7 @@ IncludeDir["imgui"] = "vendor/imgui"
 IncludeDir["glfw"] = "vendor/glfw/include"
 
 include "vendor/imgui"
+include "vendor/glfw"
 
 project "nakao"
 	location "nakao"
@@ -39,7 +40,8 @@ project "nakao"
 
 	links
 	{
-		"ImGui"
+		"ImGui",
+		"GLFW"
 	}
 
 	filter "system:windows"
