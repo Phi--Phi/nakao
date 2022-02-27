@@ -10,7 +10,8 @@ workspace "nakao"
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 IncludeDir = {}
-IncludeDir["imgui"] = "vendor/imgui/"
+IncludeDir["imgui"] = "vendor/imgui"
+IncludeDir["glfw"] = "vendor/glfw/include"
 
 include "vendor/imgui"
 
@@ -31,7 +32,9 @@ project "nakao"
 
 	includedirs
 	{
-		"%{IncludeDir.imgui}"
+		"%{prj.name}/src/Public",
+		"%{IncludeDir.imgui}",
+		"%{IncludeDir.glfw}"
 	}
 
 	links

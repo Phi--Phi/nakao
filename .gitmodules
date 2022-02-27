@@ -1,3 +1,6 @@
 [submodule "imgui"]
 	path = vendor/imgui
 	url = git@github.com:TheCherno/imgui.git
+[submodule "glfw"]
+	path = vendor/glfw
+	url = git@github.com:TheCherno/glfw.git
